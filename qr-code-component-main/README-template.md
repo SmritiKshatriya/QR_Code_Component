@@ -15,26 +15,20 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](http://127.0.0.1:5500/index.html)
 
 ## My process
 
@@ -44,60 +38,112 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-To see how you can add code snippets, see below:
+---
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+### 📝 **What I Learned**
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+* I learned the basics of **HTML structure** — putting content inside simple containers.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+  ```html
+  <div class="box">
+    <img src="./images/image-qr-code.png" alt="QR Code">
+    <h1>Improve your front-end skills by building projects</h1>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+  ```
+
+* I got an idea of how to use **CSS** to control the look of the page.
+
+  ```css
+  .box {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  ```
+
+* I saw how to **arrange things on the page** so they sit in the centre and look neat.
+
+  ```css
+  body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;    /* horizontally center */
+    align-items: center;        /* vertically center */
+    height: 100vh;              /* take full screen height */
+    margin: 0;                  /* remove default body margin */
+    flex-direction: column;     /* stack box + attribution vertically */
+  }
+  ```
+
+* I practised adding **text, images and colours** to make a small web component look better.
+
+  ```css
+  img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+  }
+
+  p {
+    font-size: 15px;
+    color: hsl(216, 15%, 48%);
+  }
+  ```
+
+* I also learned how to **use Google Fonts** to change the style of the text easily.
+
+  ```html
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  ```
+
+  ```css
+  .box {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  ```
+
+* Overall, I understood how **HTML and CSS work together** to build a simple, clean web layout.
+
+---
+
+
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In future projects I’d like to:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Practise responsiveness (making the layout adjust smoothly on mobiles, tablets and large screens using media queries or responsive units).
 
-### Useful resources
+Get more comfortable with Flexbox and Grid so I can build more complex layouts without guessing at the properties.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+Experiment with spacing, margins and padding to improve visual balance and alignment.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+Try out different Google Fonts combinations and learn more about typography choices for better design.
+
+Explore CSS variables and reusable styles so my code stays cleaner as projects grow.
+
+Add hover effects, transitions and small animations to make components feel more interactive.
+
+
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Smriti Kshatriya](http://127.0.0.1:5500/index.html)
+- Frontend Mentor - [@SmritiKshatriya](https://www.frontendmentor.io/profile/SmritiKshatriya)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
